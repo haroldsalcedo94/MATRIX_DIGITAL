@@ -50,6 +50,7 @@ public  class Alta_Transportadora extends javax.swing.JFrame {
         txt_Buscar.requestFocus();
        
     }
+    ///harold
     
     void Desbloqueo_Nuevo(){
         
