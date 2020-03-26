@@ -259,6 +259,7 @@ public  class Alta_Producto extends javax.swing.JFrame {
         btn_Nuevo = new javax.swing.JButton();
         btn_Guardar = new javax.swing.JButton();
         btn_Actualizar = new javax.swing.JButton();
+        btn_Report = new javax.swing.JButton();
         btn_Cancelar = new javax.swing.JButton();
 
         jPopupMenu1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
@@ -414,6 +415,16 @@ public  class Alta_Producto extends javax.swing.JFrame {
         });
         getContentPane().add(btn_Actualizar, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 50, 130, 40));
 
+        btn_Report.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        btn_Report.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/limpiar_x30.png"))); // NOI18N
+        btn_Report.setText("CANCELAR");
+        btn_Report.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_ReportActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btn_Report, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 50, 130, 40));
+
         btn_Cancelar.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
         btn_Cancelar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/limpiar_x30.png"))); // NOI18N
         btn_Cancelar.setText("CANCELAR");
@@ -557,6 +568,10 @@ public  class Alta_Producto extends javax.swing.JFrame {
         Buscar_Pro(txt_Buscar.getText());
     }//GEN-LAST:event_txt_BuscarKeyReleased
 
+    private void btn_ReportActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ReportActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_ReportActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -597,6 +612,7 @@ public  class Alta_Producto extends javax.swing.JFrame {
     private javax.swing.JButton btn_Cancelar;
     private javax.swing.JButton btn_Guardar;
     private javax.swing.JButton btn_Nuevo;
+    private javax.swing.JButton btn_Report;
     private javax.swing.JComboBox<String> jC_Iva;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
