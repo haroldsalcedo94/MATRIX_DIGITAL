@@ -13,7 +13,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Properties;
 
-//hola drtg
+//hola drtgttS
     public class Conexion {
    
     private static final String DRIVER_CLASS="com.mysql.jdbc.Driver";
