@@ -34,7 +34,7 @@ public  class Alta_Producto extends javax.swing.JFrame {
         Buscar_Pro("");
         
     }
-    //hola
+    //hola dos
     void Bloqueo(){
         btn_Guardar.setEnabled(false);
         btn_Actualizar.setEnabled(false);
